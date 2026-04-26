@@ -1,18 +1,18 @@
 # フリマアプリ（Laravel）
-本アプリは、ユーザーが商品を出品・購入できるフリマアプリです。
 
+本アプリは、ユーザーが商品を出品・購入できるフリマアプリです。
 
 # 環境構築
 
 1. 下記コマンドでプロジェクトをクローンする
-   ```
-   git clone https://github.com/akari3800/flea-market-app.git
-   ```
+    ```
+    git clone https://github.com/akari3800/flea-market-app.git
+    ```
 1. 下記コマンドでDockerをビルドする
-   ```
-   cd flea-market-app
-   docker-compose up -d --build
-   ```
+    ```
+    cd flea-market-app
+    docker-compose up -d --build
+    ```
 
 # Laravel環境構築
 
@@ -26,26 +26,16 @@
   php artisan db:seed
   php artisan storage:link
 ```
+
+補足：Permission deniedエラーで画面が表示されない場合、コンテナ内で以下のコマンドを実行してディレクトリの権限を更新してください  
+chmod -R 777 storage bootstrap/cache
+
 # 環境変数
 
-.envに以下を設定してください
+- Stripe決済機能を利用するため、.envに以下を設定してください
 
-- Stripe決済機能を利用するため
-
-  STRIPE_KEY=ご自身のStripe公開キー  
-  STRIPE_SECRET=ご自身のStripeシークレットキー<br><br>
-
-
-- メール認証を利用するため
-
-  MAIL_MAILER=smtp  
-  MAIL_HOST=mailhog  
-  MAIL_PORT=1025  
-  MAIL_USERNAME=null  
-  MAIL_PASSWORD=null  
-  MAIL_ENCRYPTION=null  
-  MAIL_FROM_ADDRESS=test@example.com  
-  MAIL_FROM_NAME="${APP_NAME}"  
+    STRIPE_KEY=ご自身のStripe公開キー  
+    STRIPE_SECRET=ご自身のStripeシークレットキー
 
 # 開発環境
 
