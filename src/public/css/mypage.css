@@ -1,0 +1,136 @@
+.mypage-page {
+    position: relative;
+    max-width: 1512px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.profile-icon {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    top: 78px;
+    left: 50%;
+    transform: translateX(-457px);
+    background-color: #D9D9D9;
+    border-radius: 50%;
+}
+
+.profile-icon img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.mypage-title {
+    position: absolute;
+    min-width: 250px;
+    height: 65px;
+    top: 121px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 36px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mypage-edit {
+    position: absolute;
+    width: 310px;
+    height: 59px;
+    top: 124px;
+    left: 50%;
+    transform: translateX(250px);
+    border: 2px solid #ff5555;
+    border-radius: 10px;
+    color: #ff5555;
+    font-size: 26px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.sub-tabs {
+    position: absolute;
+    width: 100%;
+    height: 47px;
+    top: 305px;
+    border-bottom: 2px solid #5f5f5f;
+}
+
+.sub-tabs__item-sell {
+    position: absolute;
+    width: 155px;
+    height: 40px;
+    left: 129px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.sub-tabs__item-buy {
+    position: absolute;
+    width: 155px;
+    height: 40px;
+    left: 336px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.sub-tabs__item a {
+    text-decoration: none;
+    color: #5f5f5f;
+}
+
+.sub-tabs__item.is-active a {
+    color: #ff0000;
+}
+
+.product-list {
+    position: absolute;
+    width: calc(100% - 138px);
+    top: 411px;
+    left: 69px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 72px;
+}
+
+
+.product-card {
+    position: relative;
+    text-decoration: none;
+    width: 100%;
+}
+
+.product-card img {
+    width: 100%;
+    height: 281px;
+    border-radius: 4px;
+}
+
+.sold-label {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: red;
+    color: white;
+    padding: 4px 8px;
+    font-size: 12px;
+}
+
+.product-card p {
+    font-size: 25px;
+    color: #000;
+    text-decoration: none;
+}

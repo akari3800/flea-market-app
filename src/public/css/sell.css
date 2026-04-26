@@ -1,0 +1,379 @@
+.content {
+    position: relative;
+    max-width: 1512px;
+    min-height: 1800px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.product-title {
+    position: absolute;
+    width: 180px;
+    height: 44px;
+    top: 51px;
+    left: 651px;
+    font-size: 36px;
+    font-weight: bold;
+    color: #000;
+}
+
+.product-image {
+    position: absolute;
+    width: 680px;
+    height: 186px;
+    top: 138px;
+    left: 416px;
+}
+
+.product-image-title {
+    position: absolute;
+    height: 36px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.image-upload {
+    position: absolute;
+    width: 680px;
+    height: 150px;
+    top: 36px;
+    border: 1px dashed #5f5f5f;
+    border-radius: 4px;
+}
+
+.image-upload img {
+    width: 100%;
+    height: 100%;
+}
+
+.upload-button {
+    position: absolute;
+    width: 165px;
+    height: 43px;
+    top: 53px;
+    left: 257px;
+    border: 2px solid #ff5555;
+    border-radius: 10px;
+    color: #ff5655;
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.product-detail-title {
+    position: absolute;
+    width: 150px;
+    height: 36px;
+    top: 394px;
+    left: 416px;
+    color: #5f5f5f;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.first-line {
+    position: absolute;
+    width: 680px;
+    top: 442px;
+    left: 416px;
+    border: 1px solid #5f5f5f;
+}
+
+.category-area {
+    position: absolute;
+    width: 680px;
+    height: 235px;
+    top: 478px;
+    left: 416px;
+}
+
+.category-title {
+    position: absolute;
+    height: 36px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #000;
+}
+
+.category-list {
+    position: absolute;
+    top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 35px;
+    column-gap: 20px;
+    width: 680px;
+}
+
+.category-item input{
+    display: none;
+}
+
+.category-item span {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    padding: 0 16px;
+    font-size: 15px;
+    font-weight: 500;
+    color: #ff5655;
+    border: 2px solid #ff5655;
+    border-radius: 9999px;
+    white-space: nowrap;
+}
+
+.category-item input:checked + span {
+    background-color: #ff5655;
+    color: #ffffff;
+}
+
+.condition-area {
+    position: absolute;
+    width: 680px;
+    height: 93px;
+    top: 778px;
+    left: 416px;
+}
+
+.condition-title {
+    position: absolute;
+    height: 29px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #000;
+}
+
+.custom-select {
+    position: absolute;
+    width: 680px;
+    height: 45px;
+    top: 48px;
+}
+
+.selected {
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+    border: 1px solid #5F5F5F;
+    border-radius: 4px;
+    background-color: white;
+    color: #5F5F5F;
+    padding: 0 10px;
+    cursor: pointer;
+    position: relative;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.selected::after {
+    content: "▼";
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.selected.no-arrow::after {
+    display: none;
+}
+
+.options {
+    display: none;
+    position: absolute;
+    width: 100%;
+    background-color: #636769;
+    border: 1px solid #b1b1b1;
+    border-radius: 4px;
+    z-index: 10;
+}
+
+.options.open {
+    display: block;
+}
+
+.options li {
+    height: 45px;
+    line-height: 45px;
+    padding-left: 28px;
+    color: white;
+    cursor: pointer;
+    position: relative;
+}
+
+.options li.active {
+    background-color: #5599EB;
+}
+
+.options li.active::before {
+    content: "✓";
+    position: absolute;
+    left: 8px;
+}
+
+.section-title {
+    position: absolute;
+    width: 180px;
+    height: 36px;
+    top: 940px;
+    left: 416px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #5f5f5f;
+}
+
+.second-line {
+    position: absolute;
+    width: 680px;
+    top: 986px;
+    left: 416px;
+    border: 1px solid #5f5f5f;
+}
+
+.product-name {
+    position: absolute;
+    width: 680px;
+    height: 81px;
+    top: 1022px;
+    left: 416px;
+}
+
+.product-name label {
+    position: absolute;
+    height: 29px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #000;
+}
+
+.product-name input {
+    position: absolute;
+    padding-left: 15px;
+    width: 680px;
+    height: 45px;
+    top: 36px;
+    border: 1px solid #5f5f5f;
+    border-radius: 4px;
+}
+
+.brand-name {
+    position: absolute;
+    width: 680px;
+    height: 81px;
+    top: 1139px;
+    left: 416px;
+}
+
+.brand-name label {
+    position: absolute;
+    height: 29px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #000;
+}
+
+.brand-name input {
+    position: absolute;
+    padding-left: 15px;
+    width: 680px;
+    height: 45px;
+    top: 36px;
+    border: 1px solid #5f5f5f;
+    border-radius: 4px;
+}
+
+.description {
+    position: absolute;
+    width: 680px;
+    height: 161px;
+    top: 1259px;
+    left: 416px;
+}
+
+.description label {
+    position: absolute;
+    height: 29px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #000;
+}
+
+.description textarea {
+    position: absolute;
+    padding-left: 15px;
+    padding-top: 10px;
+    width: 680px;
+    height: 125px;
+    top: 36px;
+    border: 1px solid #5f5f5f;
+    border-radius: 4px;
+    resize: none;
+    overflow-y: auto;
+}
+
+.price {
+    position: absolute;
+    width: 680px;
+    height: 81px;
+    top: 1456px;
+    left: 416px;
+}
+
+.price label {
+    position: absolute;
+    height: 29px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #000;
+}
+
+.price-input {
+    position: absolute;
+    width: 680px;
+    height: 45px;
+    top: 36px;
+}
+
+.price-input .yen {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #000;
+    font-size: 24px;
+}
+
+.price-input input {
+    width: 100%;
+    height: 100%;
+    padding-left: 45px;
+    border: 1px solid #5f5f5f;
+    border-radius: 4px;
+}
+
+.submit-button {
+    position: absolute;
+    width: 680px;
+    height: 60px;
+    top: 1655px;
+    left: 416px;
+    border-radius: 5px;
+    background-color: #ff5555;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-text {
+    font-size: 26px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.error {
+    color: #FF5555;
+    margin-left: 10px;
+    font-size: 18px;
+}

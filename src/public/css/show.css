@@ -1,0 +1,384 @@
+.product-detail {
+    margin: 90px auto 0;
+    width: 1380px;
+}
+
+.product-detail-form {
+    display: flex;
+    width: 1380px;
+    min-height: 1704px;
+}
+
+.product-image-area {
+    width: 690px;
+    height: 1704px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.product-image-area img {
+    margin-top: 20px;
+    width: 600px;
+    height: 600px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.product-description-area {
+    position: relative;
+    width: 690px;
+    height: 1704px;
+}
+
+.product-title {
+    position: absolute;
+    left: 65px;
+    width: 570px;
+    height: 273px;
+    top: 0px;
+}
+
+.purchase-button-contents {
+    position: absolute;
+    width: 570px;
+    height: 100px;
+    top: 273px;
+    left: 65px;
+}
+
+.product-description-contents {
+    position: absolute;
+    width: 570px;
+    height: 321px;
+    top: 373px;
+    left: 67px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.product-info-contents {
+    position: absolute;
+    width: 570px;
+    height: 230px;
+    top: 694px;
+    left: 65px;
+}
+
+.product-comments {
+    position: absolute;
+    width: 570px;
+    height: 743px;
+    top: 924px;
+    left: 65px;
+}
+
+.product-title-contents {
+    position: relative;
+}
+
+.product-name-contents {
+    position: absolute;
+    width: 570px;
+    height: 77px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.product-name {
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.brand-name-contents {
+    position: absolute;
+    width: 570px;
+    height: 28px;
+    top: 77px;
+
+}
+.brand-name {
+    font-size: 20px;
+}
+
+.price-contents {
+    position: absolute;
+    width: 570px;
+    height: 45px;
+    top: 133px;
+}
+
+.price {
+    font-size: 30px;
+}
+
+.price-number {
+    font-size: 45px;
+}
+
+.like-comment-contents {
+    position: absolute;
+    width: 144px;
+    height: 67px;
+    top: 206px;
+    left: 45px;
+}
+
+.like-comment {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.like-comment span {
+    height: 40px;
+    width: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.purchase-area {
+    position: relative;
+}
+
+.purchase-button-position {
+    position: absolute;
+    width: 570px;
+    height: 56px;
+    top: 22px;
+}
+
+.purchase-button-position form {
+    width: 100%;
+    height: 100%;
+}
+
+.purchase-button {
+    width: 100%;
+    height: 100%;
+    background-color: #FF5555;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.product-description-contents-area {
+    position: relative;
+}
+
+.product-description-contents h2 {
+    position: absolute;
+    width: 559px;
+    height: 74px;
+    font-weight: bold;
+    font-size: 36px;
+}
+
+.product-description {
+    position: absolute;
+    width: 559px;
+    min-height: 247px;
+    top: 74px;
+    font-size: 24px;
+}
+
+.product-info {
+    position: relative;
+}
+
+.product-info h3 {
+    position: absolute;
+    width: 559px;
+    height: 100px;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.category-label {
+    position: absolute;
+    width: 122.39px;
+    height: 30px;
+    top: 100px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.category-names {
+    position: absolute;
+    width: 400px;
+    height: 30px;
+    top: 100px;
+    left: 183.6px;
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+.category-name {
+    display: flex;
+    align-items: center;
+    background-color: #D9D9D9;
+    padding: 6px 14px;
+    border-radius: 15px;
+    font-size: 20px;
+    white-space: nowrap;
+}
+
+.info-label {
+    position: absolute;
+    width: 137.28px;
+    height: 100px;
+    top: 130px;
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+.condition {
+    position: absolute;
+    height: 82.76px;
+    top: 136.9px;
+    left: 214px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+
+
+.product-comment {
+    position: relative;
+}
+
+.product-comment h3 {
+    position: absolute;
+    width: 570px;
+    height: 100px;
+    font-size: 36px;
+    font-weight: bold;
+    color: #5F5F5F;
+}
+
+.comment-list-area {
+    position: absolute;
+    width: 570px;
+    height: 200px;
+    top: 100px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.product-comment-title {
+    position: absolute;
+    height: 50px;
+    top: 300px;
+    font-weight: bold;
+    font-size: 28px;
+}
+
+.textarea-area {
+    position: absolute;
+    width: 570px;
+    height: 294px;
+    top: 350px;
+}
+
+.submit-button-contents {
+    position: absolute;
+    width: 570px;
+    height: 100px;
+    top: 622px;
+}
+
+.comment-list {
+    position: relative;
+    min-height: 160px;
+}
+
+.user-icon {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: #D9D9D9;
+    overflow: hidden;
+}
+
+.user-icon img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.user-name {
+    position: absolute;
+    width: 482px;
+    height: 70px;
+    left: 88px;
+    top: 0px;
+    font-weight: bold;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.comment-body {
+    position: absolute;
+    background-color:#E5E5E5;
+    width: 570px;
+    min-height: 70px;
+    top: 89px;
+    padding: 10px;
+    border-radius: 5px;
+    word-break: break-word;
+}
+
+.textarea-area textarea {
+    width: 570px;
+    height: 246px;
+    border: 2px solid black;
+    border-radius: 5px;
+    resize: none;
+    overflow-y: auto;
+    font-family: inherit;
+    padding-left: 15px;
+    padding-top: 10px;
+}
+
+.submit-button-area {
+    position: relative;
+}
+
+.submit-button-position {
+    position: absolute;
+    width: 570px;
+    height: 56px;
+    top: 22px;
+}
+
+.submit-button-position button {
+    width: 100%;
+    height: 100%;
+    background-color: #FF5555;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.error {
+    color: #FF5555;
+    margin-left: 10px;
+    font-size: 18px;
+}
