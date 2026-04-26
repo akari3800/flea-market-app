@@ -45,6 +45,7 @@
     width: 680px;
     height: 59px;
     top: 137px;
+    padding-left: 15px;
     border: 1px solid #5F5F5F;
     border-radius: 4px;
 }
@@ -62,6 +63,7 @@
     width: 680px;
     height: 58px;
     top: 270px;
+    padding-left: 15px;
     border: 1px solid #5F5F5F;
     border-radius: 4px;
 }
@@ -79,6 +81,7 @@
     width: 680px;
     height: 59px;
     top: 403px;
+    padding-left: 15px;
     border: 1px solid #5F5F5F;
     border-radius: 4px;
 }
@@ -96,6 +99,7 @@
     width: 680px;
     height: 58px;
     top: 536px;
+    padding-left: 15px;
     border: 1px solid #5F5F5F;
     border-radius: 4px;
 }
